@@ -1,0 +1,127 @@
+.header-container {
+    width: calc(100vw - 40px);
+    margin: 15px;
+    height: 60vh;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    /* Keep this as it is */
+    overflow: hidden;
+    /* Add this to prevent content from going out of the container */
+}
+
+.header-container img {
+    height: 59.8vh;
+    position: absolute;
+    /* Change to absolute */
+    right: 0;
+    /* Align to the right edge of the container */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+}
+
+.carousel-caption a {
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+    margin: 10px 0px;
+    padding: 15px 20px;
+    margin-inline-end: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    height: 45px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-container h3,
+p {
+    color: black;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.header-container h3 {
+    font-size: 3.5em;
+    margin: 10px 0px;
+}
+
+.header-container p {
+    font-size: 1.5em;
+    margin: 10px 0px;
+}
+
+.large-caption {
+    font-size: 2em;
+    margin: -10px 0px;
+    position: relative;
+    top: 55%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    /* Remove default Bootstrap icons */
+}
+
+.carousel-control-prev-icon::after {
+    content: "\f053";
+    /* FontAwesome unicode for the icon */
+    font-family: "Font Awesome 5 Free";
+    /* FontAwesome font-family */
+    font-weight: 900;
+    /* Necessary for FontAwesome */
+    color: black;
+    /* Icon color */
+    font-size: 32px;
+    /* Icon size */
+}
+
+.carousel-control-next-icon::after {
+    content: "\f054";
+    /* FontAwesome unicode for the icon */
+    font-family: "Font Awesome 5 Free";
+    /* FontAwesome font-family */
+    font-weight: 900;
+    /* Necessary for FontAwesome */
+    color: black;
+    /* Icon color */
+    font-size: 32px;
+    /* Icon size */
+}
+
+.carousel-item {
+    position: relative;
+    height: 60vh;
+}
+
+/* Style for carousel indicators */
+.carousel-indicators button {
+    background-color: black !important;
+    /* Black color for indicators */
+}
+
+.carousel-indicators .active {
+    background-color: black;
+    /* Black color for the active indicator */
+}
