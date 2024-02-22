@@ -1,7 +1,7 @@
 .header-container {
     width: calc(100vw - 40px);
     margin: 15px;
-    height: 60vh;
+    height: 65vh;
     background-color: white;
     color: black;
     box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
 }
 
 .header-container img {
-    height: 59.8vh;
+    height: 60vh;
     position: absolute;
     /* Change to absolute */
     right: 0;

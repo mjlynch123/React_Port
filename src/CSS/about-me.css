@@ -1,0 +1,43 @@
+.about-me-left {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    height: 500px;
+}
+
+.about-me-left h1 {
+    width: 650px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-me-left p {
+    width: 650px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-right {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    height: 500px;
+}
+
+.image-container {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: silver;
+}

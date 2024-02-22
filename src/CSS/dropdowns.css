@@ -1,0 +1,46 @@
+.dropdown-left {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.dropdown-right {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.accordion-item {
+    width: 75%;
+    margin: 5px auto;
+    border: none;
+}
+
+.accordion-button {
+    border: 1px solid;
+    width: 100%;
+    margin: 5px auto;
+    outline: none;
+}
+
+.accordion-button:hover {
+    outline: none;
+}
+
+.accordion-button:focus {
+    outline: none;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+    border: 1px solid;
+    margin: 0px auto;
+    margin-top: -5px;
+    border-top: none;
+    width: 97%;
+}
