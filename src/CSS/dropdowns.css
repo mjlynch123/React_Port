@@ -2,7 +2,7 @@
     width: 50%;
     float: left;
     padding: 10px;
-    height: 500px;
+    height: auto;
     margin-top: 50px;
 }
 
@@ -10,7 +10,7 @@
     width: 50%;
     float: right;
     padding: 10px;
-    height: 500px;
+    height: auto;
     margin-top: 50px;
 }
 
