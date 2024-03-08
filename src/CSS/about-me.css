@@ -41,3 +41,7 @@
     transform: translate(-50%, -50%);
     background-color: silver;
 }
+
+.image {
+    border-radius: 50%;
+}

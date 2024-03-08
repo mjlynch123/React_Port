@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'react-bootstrap/Image';
 import "../CSS/about-me.css";
 
 export default function AboutMe() {
@@ -17,7 +18,7 @@ export default function AboutMe() {
 
             <div className="about-me-right">
                 <div className="image-container">
-
+                    <Image src="https://github.com/mjlynch123/next-portfolio/blob/main/public/Images/thumbnail%20(1).jpg?raw=true" fluid className="image" />
                 </div>
             </div>
         </div>

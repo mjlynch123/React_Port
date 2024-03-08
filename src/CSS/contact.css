@@ -21,8 +21,9 @@
 
 .contact-left {
     width: 35%;
+    height: 100%;
     float: left;
-    height: calc(100% - 20px);
+    height: calc(100% - 10px);
     border: 1px solid;
     margin-top: 10px;
     border-radius: 15px;
@@ -30,7 +31,6 @@
 }
 
 .contact-info {
-    border: 1px solid;
     height: calc(100% - 40px);
     margin: 20px;
     color: white;

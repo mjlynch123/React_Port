@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Contact from "./Contact";
 import Header from "./Header";
 import Nav from "./Nav";

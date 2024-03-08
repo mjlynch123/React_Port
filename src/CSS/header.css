@@ -13,10 +13,11 @@
 }
 
 .header-container img {
-    height: 60vh;
+    height: 100%;
     position: absolute;
-    /* Change to absolute */
+    top: 55%;
     right: 0;
+    transform: translateY(-50%);
     /* Align to the right edge of the container */
 }
 
